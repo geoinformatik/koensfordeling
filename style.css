@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+line {
+  stroke: red;
+}
+
+path.AccumLine {
+    stroke: green;
+    stroke-width: 2px;
+    fill:none;
+}
+path.NormaLine {
+    stroke: red;
+    stroke-width: 2px;
+    fill:none;
+}
+
+rect.bar
+{ fill: steelblue; }
+g.tick line{
+    stroke: #4e69ff;
+}
+
+g.tick text {
+    font-size : 14px;
+    fill: black;
+}
+#statusInfo{
+    background-color: lightblue;
+}
