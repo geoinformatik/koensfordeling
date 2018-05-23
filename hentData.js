@@ -1,5 +1,5 @@
 const displayText = {
-    "xlable":"Antal mænd pr kvide",
+    "xlable":"Antal mænd pr kvinde",
     "yHistLable":"Antal kommuner",
     "yAccumLable":"Akkumulered frekvens",
     "pageTitle" : "Kønsfordeling",
