@@ -26,7 +26,7 @@ const displayText = {
     "dispalyAreaTitle" : "Befolkningskønsfordeling opdelt på kommuner for perioden : ",
     "ageFilterOptions" : ["Alle aldre", "Selvdifinerede gruppe"],
     "statisticsTitle" :"Statistisk oversigt",
-    "statistics":[["Minimun : ","minRow"],["Maximum : ","maxRow"],["Middelværdig : ","meanRow"],["Varians : ","varRow"]]
+    "statistics":[["Minimun : ","minRow"],["Maximum : ","maxRow"],["Middelværdi : ","meanRow"],["Varians : ","varRow"]]
 };
 
 const projection = d3
