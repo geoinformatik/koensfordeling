@@ -1,32 +1,32 @@
 const displayText = {
     "xlable":"Antal mænd pr kvinde",
     "yHistLable":"Antal kommuner",
-    "yAccumLable":"Akkumulered frekvens",
+    "yAccumLable":"Akkumuleret frekvens",
     "pageTitle" : "Kønsfordeling",
-    "pageIntro" :"Kønsfordeling er en særlig afdelingen inden dor demografien hvor man studere skævheder i kønsfordeling og årsager her til.\n" +
-    "\tDanmarks statistik offentligøre hver kvartal befolkningsdata opgjoprt op kommuine plan. du kan se hele tabellen her\n" +
+    "pageIntro" :"Kønsfordeling er en særlig afdelingen inden for demografien hvor man studerer skævheder i kønsfordeling og årsager hertil.\n" +
+    "\tDanmarks statistik offentligører hver kvartal befolkningsdata opgjort på kommuneplan. Du kan se hele tabellen her\n" +
     "    <a target=\"_blank\" href=\"http://www.statistikbanken.dk/statbank5a/SelectVarVal/Define.asp?MainTable=FOLK1A&PLanguage=0&PXSId=0&wsid=cftree\">Tabellen FOLK1A fra statistik namken</a>\n" +
-    "\tData i denne tabel tilbage den seneste struktur reform i 2007 hvor 271 kommuner blev reduceret til 98 (plus chrestians ø) Det er derfor svært at sammenligne data\n" +
-    "    fra før og efter 1/1 2008. Det første du skal gøre er at vælge det kvatal du er intreseret i.",
+    "\tData i denne tabel går tilbage til den seneste strukturreform i 2007 hvor 271 kommuner blev reduceret til 98 (plus Christians ø). Det er derfor svært at sammenligne data\n" +
+    "    fra før og efter 1/1 2008. Det første du skal gøre er, at vælge det kvatal du er intreseret i.",
     "fetchMetaData": "Henter tabel information...",
-    "reddyForSelection":"Vælg hvilke data du vel se neden for",
+    "reddyForSelection":"Vælg hvilke data du vil se nedenfor",
     "selectPeriod" : "Vælg periode : ",
     "fetchingPeriodData" : "Henter data for perioden : ",
-    "filterOptionsTitle": "Filtrereings muligherder",
-    "ageFilterPrompt": "Du kan ændre filtreringen af allersgrupper neden for, lige nu ser du :",
+    "filterOptionsTitle": "Filtrereings muligheder",
+    "ageFilterPrompt": "Du kan ændre filtreringen af aldersgrupper nedenfor. Lige nu ser du :",
     "ageFilterForm": {"begin":"Aldre fra :","end":" til : " },
     "ageFilterFormSubmit":"Filtrer",
-    "chartOptionsTitle":"Grafens udsende",
-    "chamgeBins":"opdater grupper",
-    "mapOptionsTitle":"Kortets udsende",
+    "chartOptionsTitle":"Grafens udseenede",
+    "chamgeBins":"Opdater grupper",
+    "mapOptionsTitle":"Kortets udseende",
     "updateMap":"Opdater kortet",
-    "mapClassifierLable":"Metode til katagoisering af kortet : ",
-    "numberOfMapClasses": "Antal kalagorier på kortet : ",
+    "mapClassifierLable":"Metode til kategorisering af kortet : ",
+    "numberOfMapClasses": "Antal kategorier på kortet : ",
     "mapClassifierOptions":["Lige store intervaller","fractiler"],
-    "dispalyAreaTitle" : "Befolknings kønsfordeling  opdelt på kommuner for perioden : ",
-    "ageFilterOptions" : ["Alle aldre", "Selvdifinereiode gruppe"],
+    "dispalyAreaTitle" : "Befolkningskønsfordeling opdelt på kommuner for perioden : ",
+    "ageFilterOptions" : ["Alle aldre", "Selvdifinerede gruppe"],
     "statisticsTitle" :"Statistisk oversigt",
-    "statistics":[["Minimun : ","minRow"],["Maximum : ","maxRow"],["Midelværdig : ","meanRow"],["Varians : ","varRow"]]
+    "statistics":[["Minimun : ","minRow"],["Maximum : ","maxRow"],["Middelværdig : ","meanRow"],["Varians : ","varRow"]]
 };
 
 const projection = d3
